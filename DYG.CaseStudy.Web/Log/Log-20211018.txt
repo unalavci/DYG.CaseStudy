@@ -469,3 +469,182 @@ Http Response Information:
 2021-10-18T02:27:28.9068771+03:00 8000000f-0002-fe00-b63f-84710c7967bb [INF] Host: localhost:44307 (f750ea27)
 2021-10-18T02:27:28.9121205+03:00 8000000f-0002-fe00-b63f-84710c7967bb [INF] Path: /turkiye/davutoglu-ozel-kuvvetler-komutanligini-ziyaret-etti,d8691d3a-cc4e-45ce-9d6e-f2a5fa78dd49 (ebe8726d)
 2021-10-18T02:27:28.9145951+03:00 8000000f-0002-fe00-b63f-84710c7967bb [INF] QueryString:   (edd08935)
+2021-10-18T02:37:07.5276381+03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-10-18T02:37:07.5494504+03:00  [INF] Hosting environment: "Development" (c3307c92)
+2021-10-18T02:37:07.5523866+03:00  [INF] Content root path: "C:\Projects\DYG\DYG.CaseStudy\DYG.CaseStudy.Web" (b5d60022)
+2021-10-18T02:37:07.6179272+03:00 80000017-0000-fc00-b63f-84710c7967bb [INF] 
+_________________________________________________________________________
+ (88883092)
+2021-10-18T02:37:07.6337467+03:00 80000017-0000-fc00-b63f-84710c7967bb [INF] 
+Http Request Information:
+
+Schema:https 
+Host: localhost:44307 
+Path: / 
+QueryString:  
+Request Body: 
+ (ea8a46b0)
+2021-10-18T02:37:08.3773626+03:00 80000017-0000-fc00-b63f-84710c7967bb [INF] 
+_________________________________________________________________________
+ (88883092)
+2021-10-18T02:37:08.3934896+03:00 80000017-0000-fc00-b63f-84710c7967bb [INF] 
+Http Response Information:
+ (6bde95e9)
+2021-10-18T02:37:08.4043769+03:00 80000017-0000-fc00-b63f-84710c7967bb [INF] Schema:https (28edff1a)
+2021-10-18T02:37:08.4097466+03:00 80000017-0000-fc00-b63f-84710c7967bb [INF] Host: localhost:44307 (f750ea27)
+2021-10-18T02:37:08.4226507+03:00 80000017-0000-fc00-b63f-84710c7967bb [INF] Path: / (0411b0eb)
+2021-10-18T02:37:08.4271268+03:00 80000017-0000-fc00-b63f-84710c7967bb [INF] QueryString:   (edd08935)
+2021-10-18T02:37:08.5727470+03:00 80000019-0000-fc00-b63f-84710c7967bb [INF] 
+_________________________________________________________________________
+ (88883092)
+2021-10-18T02:37:08.5818745+03:00 80000019-0000-fc00-b63f-84710c7967bb [INF] 
+Http Request Information:
+
+Schema:https 
+Host: localhost:44307 
+Path: /Home/NewsList 
+QueryString:  
+Request Body: 
+ (d3228e33)
+2021-10-18T02:37:09.1011790+03:00 80000019-0000-fc00-b63f-84710c7967bb [INF] 
+_________________________________________________________________________
+ (88883092)
+2021-10-18T02:37:09.1079902+03:00 80000019-0000-fc00-b63f-84710c7967bb [INF] 
+Http Response Information:
+ (6bde95e9)
+2021-10-18T02:37:09.1394608+03:00 80000019-0000-fc00-b63f-84710c7967bb [INF] Schema:https (28edff1a)
+2021-10-18T02:37:09.1480413+03:00 80000019-0000-fc00-b63f-84710c7967bb [INF] Host: localhost:44307 (f750ea27)
+2021-10-18T02:37:09.1545712+03:00 80000019-0000-fc00-b63f-84710c7967bb [INF] Path: /Home/NewsList (1aa8887b)
+2021-10-18T02:37:09.1606174+03:00 80000019-0000-fc00-b63f-84710c7967bb [INF] QueryString:   (edd08935)
+2021-10-18T02:37:35.2165409+03:00 80000038-0001-fe00-b63f-84710c7967bb [INF] 
+_________________________________________________________________________
+ (88883092)
+2021-10-18T02:37:35.2223239+03:00 80000038-0001-fe00-b63f-84710c7967bb [INF] 
+Http Request Information:
+
+Schema:https 
+Host: localhost:44307 
+Path: /turkiye/davutoglu-ozel-kuvvetler-komutanligini-ziyaret-etti,d8691d3a-cc4e-45ce-9d6e-f2a5fa78dd49 
+QueryString:  
+Request Body: 
+ (c1bb5b9b)
+2021-10-18T02:37:38.7341723+03:00 80000038-0001-fe00-b63f-84710c7967bb [INF] 
+_________________________________________________________________________
+ (88883092)
+2021-10-18T02:37:38.7417642+03:00 80000038-0001-fe00-b63f-84710c7967bb [INF] 
+Http Response Information:
+ (6bde95e9)
+2021-10-18T02:37:38.7454228+03:00 80000038-0001-fe00-b63f-84710c7967bb [INF] Schema:https (28edff1a)
+2021-10-18T02:37:38.7726560+03:00 80000038-0001-fe00-b63f-84710c7967bb [INF] Host: localhost:44307 (f750ea27)
+2021-10-18T02:37:38.7769964+03:00 80000038-0001-fe00-b63f-84710c7967bb [INF] Path: /turkiye/davutoglu-ozel-kuvvetler-komutanligini-ziyaret-etti,d8691d3a-cc4e-45ce-9d6e-f2a5fa78dd49 (ebe8726d)
+2021-10-18T02:37:38.7852621+03:00 80000038-0001-fe00-b63f-84710c7967bb [INF] QueryString:   (edd08935)
+2021-10-18T02:37:42.3903355+03:00 8000003a-0001-fe00-b63f-84710c7967bb [INF] 
+_________________________________________________________________________
+ (88883092)
+2021-10-18T02:37:42.4243564+03:00 8000003a-0001-fe00-b63f-84710c7967bb [INF] 
+Http Request Information:
+
+Schema:https 
+Host: localhost:44307 
+Path: /Home/NewsList 
+QueryString:  
+Request Body: 
+ (d3228e33)
+2021-10-18T02:37:42.4336274+03:00 8000003a-0001-fe00-b63f-84710c7967bb [INF] 
+_________________________________________________________________________
+ (88883092)
+2021-10-18T02:37:42.4369761+03:00 8000003a-0001-fe00-b63f-84710c7967bb [INF] 
+Http Response Information:
+ (6bde95e9)
+2021-10-18T02:37:42.4432607+03:00 8000003a-0001-fe00-b63f-84710c7967bb [INF] Schema:https (28edff1a)
+2021-10-18T02:37:42.4495237+03:00 8000003a-0001-fe00-b63f-84710c7967bb [INF] Host: localhost:44307 (f750ea27)
+2021-10-18T02:37:42.4527465+03:00 8000003a-0001-fe00-b63f-84710c7967bb [INF] Path: /Home/NewsList (1aa8887b)
+2021-10-18T02:37:42.4567261+03:00 8000003a-0001-fe00-b63f-84710c7967bb [INF] QueryString:   (edd08935)
+2021-10-18T02:37:43.5623731+03:00 8000003c-0001-fe00-b63f-84710c7967bb [INF] 
+_________________________________________________________________________
+ (88883092)
+2021-10-18T02:37:43.5686648+03:00 8000003c-0001-fe00-b63f-84710c7967bb [INF] 
+Http Request Information:
+
+Schema:https 
+Host: localhost:44307 
+Path: /Home/NewsByCategory/spor 
+QueryString:  
+Request Body: 
+ (dc6653c3)
+2021-10-18T02:37:43.6008181+03:00 8000003c-0001-fe00-b63f-84710c7967bb [INF] 
+_________________________________________________________________________
+ (88883092)
+2021-10-18T02:37:43.6042044+03:00 8000003c-0001-fe00-b63f-84710c7967bb [INF] 
+Http Response Information:
+ (6bde95e9)
+2021-10-18T02:37:43.6076594+03:00 8000003c-0001-fe00-b63f-84710c7967bb [INF] Schema:https (28edff1a)
+2021-10-18T02:37:43.6115632+03:00 8000003c-0001-fe00-b63f-84710c7967bb [INF] Host: localhost:44307 (f750ea27)
+2021-10-18T02:37:43.6162420+03:00 8000003c-0001-fe00-b63f-84710c7967bb [INF] Path: /Home/NewsByCategory/spor (9cf0932e)
+2021-10-18T02:37:43.6199344+03:00 8000003c-0001-fe00-b63f-84710c7967bb [INF] QueryString:   (edd08935)
+2021-10-18T02:37:45.7300796+03:00 8000001b-0000-fc00-b63f-84710c7967bb [INF] 
+_________________________________________________________________________
+ (88883092)
+2021-10-18T02:37:45.7349488+03:00 8000001b-0000-fc00-b63f-84710c7967bb [INF] 
+Http Request Information:
+
+Schema:https 
+Host: localhost:44307 
+Path: /spor/davutoglu-ozel-kuvvetler-komutanligini-ziyaret-etti,d8691d3a-cc4e-45ce-9d6e-f2a5fa78dd20 
+QueryString:  
+Request Body: 
+ (dcd66206)
+2021-10-18T02:37:47.0866509+03:00 8000001b-0000-fc00-b63f-84710c7967bb [INF] 
+_________________________________________________________________________
+ (88883092)
+2021-10-18T02:37:47.0900912+03:00 8000001b-0000-fc00-b63f-84710c7967bb [INF] 
+Http Response Information:
+ (6bde95e9)
+2021-10-18T02:37:47.0929157+03:00 8000001b-0000-fc00-b63f-84710c7967bb [INF] Schema:https (28edff1a)
+2021-10-18T02:37:47.0960245+03:00 8000001b-0000-fc00-b63f-84710c7967bb [INF] Host: localhost:44307 (f750ea27)
+2021-10-18T02:37:47.0992265+03:00 8000001b-0000-fc00-b63f-84710c7967bb [INF] Path: /spor/davutoglu-ozel-kuvvetler-komutanligini-ziyaret-etti,d8691d3a-cc4e-45ce-9d6e-f2a5fa78dd20 (18d153da)
+2021-10-18T02:37:47.1021833+03:00 8000001b-0000-fc00-b63f-84710c7967bb [INF] QueryString:   (edd08935)
+2021-10-18T02:37:49.4512582+03:00 80000027-0002-fd00-b63f-84710c7967bb [INF] 
+_________________________________________________________________________
+ (88883092)
+2021-10-18T02:37:49.4552894+03:00 80000027-0002-fd00-b63f-84710c7967bb [INF] 
+Http Request Information:
+
+Schema:https 
+Host: localhost:44307 
+Path: /Home/NewsByCategory/ekonomi 
+QueryString:  
+Request Body: 
+ (081c87f3)
+2021-10-18T02:37:49.4612897+03:00 80000027-0002-fd00-b63f-84710c7967bb [INF] 
+_________________________________________________________________________
+ (88883092)
+2021-10-18T02:37:49.4647793+03:00 80000027-0002-fd00-b63f-84710c7967bb [INF] 
+Http Response Information:
+ (6bde95e9)
+2021-10-18T02:37:49.4682928+03:00 80000027-0002-fd00-b63f-84710c7967bb [INF] Schema:https (28edff1a)
+2021-10-18T02:37:49.4708361+03:00 80000027-0002-fd00-b63f-84710c7967bb [INF] Host: localhost:44307 (f750ea27)
+2021-10-18T02:37:49.4740966+03:00 80000027-0002-fd00-b63f-84710c7967bb [INF] Path: /Home/NewsByCategory/ekonomi (4dc52a48)
+2021-10-18T02:37:49.4802357+03:00 80000027-0002-fd00-b63f-84710c7967bb [INF] QueryString:   (edd08935)
+2021-10-18T02:37:50.4266412+03:00 8000000f-0003-fd00-b63f-84710c7967bb [INF] 
+_________________________________________________________________________
+ (88883092)
+2021-10-18T02:37:50.4300713+03:00 8000000f-0003-fd00-b63f-84710c7967bb [INF] 
+Http Request Information:
+
+Schema:https 
+Host: localhost:44307 
+Path: /ekonomi/davutoglu-ozel-kuvvetler-komutanligini-ziyaret-etti,d8691d3a-cc4e-45ce-9d6e-f2a5fa78dd49 
+QueryString:  
+Request Body: 
+ (c3dc9cb4)
+2021-10-18T02:37:51.9038509+03:00 8000000f-0003-fd00-b63f-84710c7967bb [INF] 
+_________________________________________________________________________
+ (88883092)
+2021-10-18T02:37:51.9065221+03:00 8000000f-0003-fd00-b63f-84710c7967bb [INF] 
+Http Response Information:
+ (6bde95e9)
+2021-10-18T02:37:51.9091896+03:00 8000000f-0003-fd00-b63f-84710c7967bb [INF] Schema:https (28edff1a)
+2021-10-18T02:37:51.9122672+03:00 8000000f-0003-fd00-b63f-84710c7967bb [INF] Host: localhost:44307 (f750ea27)
+2021-10-18T02:37:51.9149980+03:00 8000000f-0003-fd00-b63f-84710c7967bb [INF] Path: /ekonomi/davutoglu-ozel-kuvvetler-komutanligini-ziyaret-etti,d8691d3a-cc4e-45ce-9d6e-f2a5fa78dd49 (6529d14b)
+2021-10-18T02:37:51.9187259+03:00 8000000f-0003-fd00-b63f-84710c7967bb [INF] QueryString:   (edd08935)
