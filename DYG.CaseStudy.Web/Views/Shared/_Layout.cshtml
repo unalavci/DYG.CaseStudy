@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>World Time</title>
+    <!-- plugin css for this page -->
+    <link href="~/assets/vendors/mdi/css/materialdesignicons.min.css" rel="stylesheet" />
+    <link href="~/assets/vendors/aos/dist/aos.css/aos.css" rel="stylesheet" />
+
+    <!-- End plugin css for this page -->
+    <link rel="shortcut icon" href="~/assets/images/favicon.png" />
+
+    <!-- inject:css -->
+    <link href="~/assets/css/style.css" rel="stylesheet" />
+    <!-- endinject -->
+</head>
+
+<body>
+    <div class="container-scroller">
+        <div class="main-panel">
+            <!-- partial:partials/_navbar.html -->
+            <header id="header">
+                <div class="container">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                        <div class="navbar-top">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <ul class="navbar-top-left-menu">
+                                    <li class="nav-item">
+                                        <a href="/Home/NewsList" class="nav-link">Haberler</a>
+                                    </li>
+                                </ul>
+
+                            </div>
+                        </div>
+                    </nav>
+
+                </div>
+
+            </header>
+            <p>Döviz Kurları:</p>
+
+            <!-- partial -->
+
+            <div class="content-wrapper">
+                <div class="container">
+                    <div class="row aos-init aos-animate" data-aos="fade-up">
+                        @await Component.InvokeAsync("Category")
+                        @RenderBody()
+                    </div>
+                </div>
+            </div>
+            <!-- main-panel ends -->
+            <!-- container-scroller ends -->
+
+        </div>
+    </div>
+    <!-- inject:js -->
+    <script src="~/assets/vendors/js/vendor.bundle.base.js"></script>
+    <!-- endinject -->
+    <!-- plugin js for this page -->
+    <script src="~/assets/vendors/aos/dist/aos.js/aos.js"></script>
+    <!-- End plugin js for this page -->
+    <!-- Custom js for this page-->
+    <script src="~/assets/js/demo.js"></script>
+    <script src="~/assets/js/jquery.easeScroll.js"></script>
+    <!-- End custom js for this page-->
+</body>
+</html>

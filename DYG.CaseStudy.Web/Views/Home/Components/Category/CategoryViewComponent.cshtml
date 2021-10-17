@@ -1,0 +1,15 @@
+﻿@model List<DYG.CaseStudy.Core.Entities.JsonData>;
+
+    <div class="col-lg-3 stretch-card grid-margin">
+        <div class="card">
+            <div class="card-body">
+                <h2>Kategoriler</h2>
+                <ul class="vertical-menu">
+                    @foreach (var item in Model.GroupBy(x => x.MainCategory.Title).Select(s => s.First()))
+                    {
+                        <li><a href="/Home/NewsByCategory/@item.MainCategory.Slug">@item.MainCategory.Title</a></li>
+                    }
+                </ul>
+            </div>
+        </div>
+    </div>

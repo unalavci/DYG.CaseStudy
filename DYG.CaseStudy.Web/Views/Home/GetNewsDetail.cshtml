@@ -1,0 +1,36 @@
+﻿@model DYG.CaseStudy.Core.Entities.JsonData;
+@{
+    Layout = "_Layout";
+}
+<div class="col-lg-9 stretch-card grid-margin">
+    <div class="card">
+        <br />
+        <h3>Haber Detayı</h3>
+
+        <div class="card-body">
+
+            <h5>@Model.Story.Contents[0].Text</h5>
+            <br />
+            <br />
+            <div class="box box1">
+                <img src='@Model.Story.Contents[1].ImageUrl' />
+            </div>
+
+            <br />
+            <div>
+                @Model.Story.Contents[2].Text
+            </div>     <br />
+            <br />
+            <b> Haber Tarihi:</b> @Model.Root.PublishedTime.ToShortDateString()
+
+        </div>
+        <div class="row">
+
+            <div class="column">
+                @Html.ActionLink("Ana Sayfaya Dön..", "NewsList", "Home", new { }, new { @class = "btn btn-primary" })
+
+            </div>
+        </div>
+    </div>
+</div>
+

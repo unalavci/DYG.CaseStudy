@@ -1,0 +1,43 @@
+﻿@model List<DYG.CaseStudy.Core.Entities.JsonData>;
+@{
+    Layout = "_Layout";
+}
+<div class="col-lg-9 stretch-card grid-margin">
+    <div class="card">
+        <div class="card-body">
+            @foreach (var item in Model)
+            {
+                <div class="row">
+                    <div class="col-sm-4 grid-margin">
+                        <div class="position-relative">
+                            <div class="rotate-img">
+                                <img src="@item.Root.MainArtUrl"
+                                     alt='@(String.Join(", ", item.Root?.NewsKeywords ?? new String[] { }))'
+                                     title='@(String.Join(", ", item.Root?.NewsKeywords ?? new String[] { }))'
+                                     class="img-fluid" />
+                            </div>
+                            <div class="badge-positioned">
+                                <span class="badge badge-danger font-weight-bold">@item.MainCategory.Title.Substring(0, (item.MainCategory.Title.Length > 35 ? 35 : item.MainCategory.Title.Length))</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-8  grid-margin">
+                        <h2 class="mb-2 font-weight-600">
+                            @item.Root.Title
+                        </h2>
+                        <div class="fs-13 mb-2">
+                            <span class="mr-2">Haber Kaynağı: </span>@item.Root.SourcesData[0].Title
+                        </div>
+
+                        <p class="mb-0">
+                            @item.Root.Spot
+                        </p>
+
+                        @Html.ActionLink("Devamını Oku...", "GetNewsDetail", "Home", new { item.Root.MainCategory.Slug, title = Url.FriendlyUrl(item.Root.Title), item.Root.Id }, new { @class = "btn btn-primary" })
+
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>
